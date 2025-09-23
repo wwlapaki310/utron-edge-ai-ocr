@@ -30,6 +30,24 @@ A μTRON OS competition project demonstrating edge AI capabilities with accessib
 └─────────────────────────────────────┘
 ```
 
+## 📚 Documentation
+
+### Core Documentation
+- 📖 **[Project Overview](docs/project-overview.md)** - Comprehensive project explanation and social impact
+- 🏛️ **[System Architecture](docs/architecture.md)** - Detailed system design and component relationships
+- 🔧 **[Technical Stack](docs/technical-stack.md)** - Technology choices and implementation details
+- 💡 **[Implementation Guide](docs/implementation-guide.md)** - Best practices and optimization techniques
+- ⚙️ **[Setup Instructions](docs/setup.md)** - Development environment configuration
+
+### Quick Navigation
+| Document | Purpose | Target Audience |
+|----------|---------|-----------------|
+| [Project Overview](docs/project-overview.md) | Project goals, social impact, technology explanation | Everyone |
+| [System Architecture](docs/architecture.md) | High-level system design and data flow | Engineers, System Architects |
+| [Technical Stack](docs/technical-stack.md) | Technology decisions and detailed specifications | Developers, Technical Leads |
+| [Implementation Guide](docs/implementation-guide.md) | Coding best practices and optimization tips | Software Engineers |
+| [Setup Instructions](docs/setup.md) | Environment setup and build instructions | Developers |
+
 ## 🔧 Hardware Requirements
 
 - **STM32N6570-DK** Development Kit
@@ -61,7 +79,7 @@ A μTRON OS competition project demonstrating edge AI capabilities with accessib
 ```bash
 git clone https://github.com/wwlapaki310/utron-edge-ai-ocr.git
 cd utron-edge-ai-ocr
-# Follow setup instructions in docs/setup.md
+# Follow detailed setup instructions in docs/setup.md
 ```
 
 ## 📁 Project Structure
@@ -70,8 +88,10 @@ cd utron-edge-ai-ocr
 utron-edge-ai-ocr/
 ├── docs/                    # Documentation
 │   ├── setup.md            # Setup instructions
-│   ├── architecture.md     # System architecture
-│   └── api.md              # API documentation
+│   ├── architecture.md     # System architecture  
+│   ├── technical-stack.md  # Technology stack details
+│   ├── implementation-guide.md # Best practices
+│   └── project-overview.md # Project explanation
 ├── src/                     # Source code
 │   ├── tasks/              # μTRON OS task implementations
 │   ├── ai/                 # AI model integration
@@ -90,6 +110,8 @@ utron-edge-ai-ocr/
 
 ### Phase 1 (Week 1): Foundation
 - [x] μTRON OS setup and basic task structure
+- [x] System architecture documentation
+- [x] Technical stack definition
 - [ ] Hardware abstraction layer (HAL)
 - [ ] Camera interface implementation
 - [ ] Solenoid control driver
@@ -113,6 +135,23 @@ utron-edge-ai-ocr/
 - **Power**: < 300mW active mode
 - **Memory**: < 4MB runtime usage
 
+## 🌟 Key Innovations
+
+### Real-time Edge AI
+- **Sub-20ms response time** using Neural-ART NPU acceleration
+- **Offline operation** with no cloud dependency
+- **Optimized memory usage** for edge deployment
+
+### Accessibility Focus
+- **Multi-modal feedback** - Audio + Tactile (Morse code)
+- **Universal design** for visually impaired users
+- **Customizable output** speed and intensity
+
+### μTRON OS Integration
+- **Deterministic real-time** scheduling
+- **Task-based architecture** with strict timing guarantees
+- **Resource-efficient** multitasking
+
 ## 🤝 Contributing
 
 This is a competition project, but feedback and suggestions are welcome!
@@ -123,6 +162,13 @@ This is a competition project, but feedback and suggestions are welcome!
 4. Push to the branch
 5. Open a Pull Request
 
+### Areas for Contribution
+- 🔍 **AI Model Optimization** - Improve OCR accuracy and speed
+- 🎵 **Audio Enhancement** - Better voice synthesis quality
+- 🔧 **Hardware Integration** - Additional sensor support
+- 📖 **Documentation** - Translations and improvements
+- 🧪 **Testing** - User experience testing and validation
+
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) file for details.
@@ -132,8 +178,11 @@ MIT License - see [LICENSE](LICENSE) file for details.
 For questions about this μTRON OS competition project:
 - Create an issue in this repository
 - Technical discussions welcome!
+- Read our [Project Overview](docs/project-overview.md) for detailed information
 
 ---
 
 **🏆 μTRON OS Competition Entry 2025**  
 *Demonstrating real-time edge AI with accessibility focus*
+
+**"見える"を"聞こえる""感じる"に変える技術** - *Technology that transforms "seeing" into "hearing" and "feeling"*
